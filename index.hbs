@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<span id="fontTitle"></span>
+<select id="font">
+	{{{fonts}}}
+</select>
+
+<button onclick="myState.zoomOut()" id="zoomOut">-</button>
+<button onclick="myState.zoomIn()" id="zoomIn">+</button>
+<span>style: <span id="currentStyle">1</span> of <span id="totalStyles">5</span>
+<button onclick="myState.prevStyle()" id="prevStyle">Previous Style</button>
+<button onclick="myState.nextStyle()" id="nextStyle">Next Style</button>
+
+<script src="js/libs/kiwi.js"></script>
+<script src="js/libs/primitives-1.0.4.js"></script>
+<script src="js/libs/jquery-3.1.0.js"></script>
+<script src="js/libs/handlebars-v4.0.5.js"></script>
+<script src="js/plugins/bitmapText/bitmap-text-1.2.0.js"></script>
+<script src="js/my-state.js"></script>
+<script src="js/loading-state.js"></script>
+<script src="js/my-game.js"></script>
+
+</body>
+</html>
