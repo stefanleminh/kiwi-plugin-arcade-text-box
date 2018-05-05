@@ -1,0 +1,25 @@
+{
+  "name": "kiwi-plugin-arcade-text-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanleminh/kiwi-plugin-arcade-text-box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanleminh/kiwi-plugin-arcade-text-box/issues"
+  },
+  "homepage": "https://github.com/stefanleminh/kiwi-plugin-arcade-text-box#readme"
+}
